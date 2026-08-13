@@ -30,3 +30,4 @@ jobs:
           git add known-members.json
           git diff --cached --quiet || git commit -m "Update member state"
           git push
+          
