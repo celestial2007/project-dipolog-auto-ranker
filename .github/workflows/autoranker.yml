@@ -16,11 +16,6 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Install PowerShell
-        uses: Amadevus/pwsh@v2
-        with:
-          version: "7.4"
-
       - name: Run auto-ranker
         shell: pwsh
         env:
